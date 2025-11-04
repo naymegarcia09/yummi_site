@@ -1,5 +1,5 @@
 *{
-    box-sizing: border-box;
+   box-sizing: border-box;
 }
 
 html {
@@ -15,3 +15,93 @@ html {
     background-position: center;
     background-color: #FFD9DE;
 }
+
+.body {
+    margin: 0;
+    font-family: 'Fredoka', system-ui, Arial, sans-serif;
+    color: aliceblue;
+    background: #FFD9DE;
+    line-height: 1.6;
+}
+
+.topbar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: #FFD9DE; 
+    border-bottom: 4px solid #FFF;
+}
+
+.container {
+    width: min(1100px, 92%);
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-weight: 800;
+    text-decoration: none;
+    color:#9bc9eb;
+    font-size: 1.5rem;
+    padding: 0.8rem 0;
+    font-style: oblique;
+}
+
+nav a {
+    text-decoration:none;
+    color: #9bc9eb;
+    padding: 0.6rem 0.8rem;
+    border-radius: 0.5rem;
+    font-style: oblique;
+}
+
+nav a:hover {
+    background-color: aliceblue;
+}
+
+section {
+    scroll-margin-top: 4rem ;
+}
+
+section h2 {
+    margin-bottom: 0.4rem;
+    font-size: 1.8rem;
+    font-style: italic;
+}
+
+.section-subtitle, .hero p {
+    color: #667;
+    margin-bottom: 1rem;
+}
+
+.hero h1 {
+    margin-bottom: 0.4rem;
+    font-size: 2.2rem;
+}
+
+.hero-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-text {
+    max-width: 45%;
+}
+
+.hero-img {
+    max-width: 90%;
+}
+
+
+
+
+
+
