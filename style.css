@@ -63,6 +63,7 @@ nav a:hover {
 }
 
 section {
+    padding: 3rem 0;
     scroll-margin-top: 4rem ;
 }
 
@@ -167,6 +168,13 @@ section h2 {
     font-weight: 700;
     padding: 4px 8px 4px 8px;
     border-radius: 8px;
+}
+
+.contact-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    align-items: flex-start;
 }
 
 .contact-grid div {
